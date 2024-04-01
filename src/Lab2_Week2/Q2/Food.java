@@ -1,4 +1,4 @@
-package Lab2.Q2;
+package Lab2_Week2.Q2;
 import java.lang.Math;
 
 public class Food {

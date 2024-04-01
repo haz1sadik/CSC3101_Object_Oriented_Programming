@@ -1,4 +1,4 @@
-package Lab2.Q1;
+package Lab2_Week2.Q1;
 
 import java.util.ArrayList;
 

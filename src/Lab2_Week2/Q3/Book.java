@@ -1,6 +1,6 @@
-package Lab2.Q3;
+package Lab2_Week2.Q3;
 
-import Lab1.Q1.Identification;
+import Lab1_Week1.Q1.Identification;
 
 public class Book {
     private final String name;

@@ -1,4 +1,4 @@
-package Lab1.Q2;
+package Lab1_Week1.Q2;
 
 public class StudentDB {
     public static void main(String[] args) {

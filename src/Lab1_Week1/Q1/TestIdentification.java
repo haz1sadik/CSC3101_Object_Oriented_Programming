@@ -1,4 +1,4 @@
-package Lab1.Q1;
+package Lab1_Week1.Q1;
 
 public class TestIdentification{
     public static void main(String[] args) {

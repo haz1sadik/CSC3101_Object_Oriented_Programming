@@ -1,4 +1,4 @@
-package Lab1.Q3;
+package Lab1_Week1.Q3;
 
 public class Fan {
     public final int SLOW = 1, MEDIUM = 2, FAST = 3;

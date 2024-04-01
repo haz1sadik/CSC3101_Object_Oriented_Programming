@@ -1,4 +1,4 @@
-package Lab2.Q2;
+package Lab2_Week2.Q2;
 
 public class TestFood {
     public static void main(String[] args) {
