@@ -1,5 +1,4 @@
 
-<span style="font-size:95 font-style:"bold";">TO VIEW ALL THE CODES, PLEASE OPEN _src_ FOLDER</span>
 **TO VIEW ALL THE CODES, PLEASE OPEN _src_ FOLDER**
 
 
