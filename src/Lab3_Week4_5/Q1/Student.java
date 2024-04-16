@@ -52,6 +52,6 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student " + "\nMatric : " + getMatricNum() + "\nName : " + getName() + "E-mail : " + getEmail() + "\nGPA : " + getGpa();
+        return "\nStudent " + "\nMatric : " + getMatricNum() + "\nName : " + getName() + "\nGPA : " + getGpa();
     }
 }

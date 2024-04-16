@@ -3,6 +3,10 @@ package Lab3_Week4_5.Q1;
 public class Postgraduate extends Student{
     private String thesisName;
 
+    public Postgraduate(){
+
+    }
+
     public String getThesisName() {
         return thesisName;
     }
@@ -13,6 +17,6 @@ public class Postgraduate extends Student{
 
     @Override
     public String toString() {
-        return "Student " + "\nMatric : " + getMatricNum() + "\nName : " + getName() + "E-mail : " + getEmail() + "\nGPA : " + getGpa() + "Thesis : " + getThesisName();
+        return super.toString() + "\nThesis : " + getThesisName();
     }
 }

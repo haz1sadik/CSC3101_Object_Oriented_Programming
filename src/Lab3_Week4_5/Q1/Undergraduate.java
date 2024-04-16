@@ -3,6 +3,10 @@ package Lab3_Week4_5.Q1;
 public class Undergraduate extends Student {
     private String classification;
 
+    public Undergraduate(){
+
+    }
+
     public String getClassification() {
         return classification;
     }
@@ -13,6 +17,6 @@ public class Undergraduate extends Student {
 
     @Override
     public String toString() {
-        return "Student " + "\nMatric : " + getMatricNum() + "\nName : " + getName() + "E-mail : " + getEmail() + "\nGPA : " + getGpa() + "\nClassification : " + getClassification();
+        return super.toString() + "\nClassification : " + getClassification();
     }
 }
