@@ -24,3 +24,4 @@ public class Manager extends Staff {
         return "\nStaff ID : " + getStaffID() +  "\nDepartment : " + getDepartment() +  "\nSalary : RM" + getSalary() + "\nBonus : RM" + bonus();
     }
 }
+
