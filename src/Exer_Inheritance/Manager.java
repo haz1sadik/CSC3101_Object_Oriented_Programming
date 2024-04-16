@@ -21,6 +21,6 @@ public class Manager extends Staff {
 
     @Override
     public String toString() {
-        return "\nStaff ID : " + getStaffID() + "\nSalary : RM" + getSalary() + "\nDepartment : " + getDepartment() + "\nBonus : RM" + bonus();
+        return "\nStaff ID : " + getStaffID() +  "\nDepartment : " + getDepartment() +  "\nSalary : RM" + getSalary() + "\nBonus : RM" + bonus();
     }
 }
