@@ -7,18 +7,12 @@ public class TestStudentMazhab2 {
         Scanner input = new Scanner(System.in);
         int studentType = 1;
 
-        while (studentType >= 1 && studentType <= 3){
-            if (studentType == 1){
-                System.out.print("Enter Student Type : ");
-                studentType = input.nextInt();
-            } else if (studentType == 2) {
-                System.out.print("Enter Student Type : ");
-                studentType = input.nextInt();
-            }
-            else {
-                System.out.print("Enter Student Type : ");
-                studentType = input.nextInt();
-            }
+        if (studentType == 1){
+
+        } else if (studentType == 2) {
+
         }
+        else {
     }
 }
+
