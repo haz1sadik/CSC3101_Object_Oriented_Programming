@@ -7,6 +7,17 @@ public class TestStudent {
         Scanner input = new Scanner(System.in);
         Undergraduate undergraduate1 = new Undergraduate();
         Postgraduate postgraduate1 = new Postgraduate();
+        Student student = new Student();
+
+        System.out.print("Enter Student Matric Number : ");
+        student.setMatricNum(input.nextInt());
+        input.nextLine();
+        System.out.print("Enter Student Name : ");
+        student.setName(input.nextLine());
+        System.out.print("Enter Student Email : ");
+        student.setEmail(input.nextLine());
+        System.out.print("Enter Student GPA : ");
+        student.setGpa(input.nextDouble());
 
         System.out.print("Enter Undergraduate Student Matric Number : ");
         undergraduate1.setMatricNum(input.nextInt());
@@ -34,6 +45,7 @@ public class TestStudent {
         System.out.print("Enter Undergraduate Student Thesis Name : ");
         postgraduate1.setThesisName(input.next());
 
+        System.out.println(student);
         System.out.println(undergraduate1);
         System.out.println(postgraduate1);
 
