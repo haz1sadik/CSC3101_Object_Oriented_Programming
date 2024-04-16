@@ -14,7 +14,7 @@ public class TestStaff {
         System.out.print("Enter Staff Salary : ");
         staff1.setSalary(inputNumber.nextDouble());
 
-        System.out.print("Enter Manager ID : ");
+        System.out.print("\nEnter Manager ID : ");
         manager1.setStaffID(inputNumber.nextInt());
         System.out.print("Enter Manager Department : ");
         manager1.setDepartment(inputString.next());

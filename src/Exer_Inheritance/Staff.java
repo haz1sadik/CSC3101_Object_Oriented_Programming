@@ -28,6 +28,6 @@ public class Staff {
 
     @Override
     public String toString() {
-        return "Staff ID : " + getStaffID() + "\nSalary : RM" + getSalary() + "\nBonus : RM" + bonus();
+        return "\nStaff ID : " + getStaffID() + "\nSalary : RM" + getSalary() + "\nBonus : RM" + bonus();
     }
 }
