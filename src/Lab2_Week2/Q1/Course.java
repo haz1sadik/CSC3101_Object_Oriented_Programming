@@ -3,8 +3,8 @@ package Lab2_Week2.Q1;
 import java.util.ArrayList;
 
 public class Course {
-    private String courseName;
-    private ArrayList<String> students = new ArrayList<>();
+    private final String courseName;
+    private final ArrayList<String> students = new ArrayList<>();
     private int numberOfStudents = 0;
 
     public Course(String courseName){
