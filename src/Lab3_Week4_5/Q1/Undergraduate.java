@@ -3,8 +3,9 @@ package Lab3_Week4_5.Q1;
 public class Undergraduate extends Student {
     private String classification;
 
-    public Undergraduate(){
-
+    public Undergraduate(int matricNum, String name, String email, double gpa, String classification){
+        super(matricNum, name, email, gpa);
+        setClassification(classification);
     }
 
     public String getClassification() {
@@ -17,6 +18,6 @@ public class Undergraduate extends Student {
 
     @Override
     public String toString() {
-        return super.toString() + "\nClassification : " + getClassification();
+        return "\nUndergraduate " + super.toString() + "\nClassification : " + getClassification();
     }
 }

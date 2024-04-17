@@ -3,8 +3,9 @@ package Lab3_Week4_5.Q1;
 public class Postgraduate extends Student{
     private String thesisName;
 
-    public Postgraduate(){
-
+    public Postgraduate(int matricNum, String name, String email, double gpa, String thesisName){
+        super(matricNum, name, email, gpa);
+        setThesisName(thesisName);
     }
 
     public String getThesisName() {
@@ -17,6 +18,6 @@ public class Postgraduate extends Student{
 
     @Override
     public String toString() {
-        return super.toString() + "\nThesis : " + getThesisName();
+        return "\nPostgraduate " + super.toString() + "\nThesis : " + getThesisName();
     }
 }
