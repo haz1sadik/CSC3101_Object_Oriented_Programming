@@ -1,4 +1,4 @@
-package Lab4_Week6_7;
+package Lab4_Week6_7.Q1;
 
 public class Lorry extends Vehicle{
     private int weight;

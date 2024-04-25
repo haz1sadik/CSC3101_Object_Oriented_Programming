@@ -1,4 +1,4 @@
-package Lab4_Week6_7;
+package Lab4_Week6_7.Q1;
 
 import java.util.ArrayList;
 
@@ -15,8 +15,8 @@ public class TestProgram {
         vehicles.add(car);
         vehicles.add(lorry1);
         vehicles.add(lorry2);
-        for (int i = 0; i < vehicles.size(); i++){
-            System.out.println(vehicles.get(i));
+        for (Vehicle vehicle : vehicles) {
+            System.out.println(vehicle);
         }
     }
 }
