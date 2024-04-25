@@ -46,8 +46,13 @@ public class Food {
     @Override
     public String toString() {
         if (checkValid())
-            return this.givenFood + " Have a Total Calorie of " + this.totalCalories + " with " + this.fatGram + "g of fat\nPercentage of Calories From Fat is : " + Math.round(calcPercentage()*100.0) / 100.0 + "%\n";
+            if (calcPercentage() < 30) {
+                return "\n" + this.givenFood + " Have a Total Calorie of " + this.totalCalories + " with " + this.fatGram + "g of fat\nPercentage of Calories From Fat is : " + Math.round(calcPercentage() * 100.0) / 100.0 + "%" + "\n" + getGivenFood() + " is low fat";
+            }
+            else {
+                return "\n" + this.givenFood + " Have a Total Calorie of " + this.totalCalories + " with " + this.fatGram + "g of fat\nPercentage of Calories From Fat is : " + Math.round(calcPercentage() * 100.0) / 100.0 + "%";
+            }
         else
-            return "Input is Invalid";
+            return "\nInput is Invalid";
     }
 }
