@@ -2,9 +2,6 @@ package Lab4_Week6_7;
 
 public class Van extends Vehicle{
     private int length;
-    public Van(int length){
-        super(" ", 0, 0.0);
-    }
     public Van(int length, String color, int speed, double regularPrice){
         super(color, speed, regularPrice);
         setLength(length);
@@ -20,11 +17,14 @@ public class Van extends Vehicle{
 
     @Override
     public double SalePrice() {
-        if (length > 15){
-            return getRegularPrice() * 0.975;
-        }
-        else {
-            return getRegularPrice() * 0.95;
-        }
+        if (length > 15)
+            return super.SalePrice() * 0.975;
+        else
+            return super.SalePrice() * 0.95;
     }
+    @Override
+    public String toString() {
+        return "\nVan\n" + "Length : " + getLength() + "\nColor : " + getColor() + "\nSpeed : " + getSpeed() + "\nRegular Price : " + getRegularPrice() + "\nPrice After Discount : " + SalePrice();
+    }
+
 }

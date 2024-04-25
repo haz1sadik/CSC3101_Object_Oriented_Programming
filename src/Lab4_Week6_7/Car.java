@@ -7,7 +7,6 @@ public class Car extends Vehicle{
         setYear(year);
         setManufacturerDiscount(manufacturerDiscount);
     }
-
     public int getYear() {
         return year;
     }
@@ -22,5 +21,13 @@ public class Car extends Vehicle{
 
     public void setManufacturerDiscount(int manufacturerDiscount) {
         this.manufacturerDiscount = manufacturerDiscount;
+    }
+    @Override
+    public double SalePrice(){
+        return super.SalePrice() * (1.0 - (getManufacturerDiscount() / 100.0));
+    }
+    @Override
+    public String toString() {
+        return "\nCar\n" + "Year : " + getYear() + "\nColor : " + getColor() + "\nSpeed : " + getSpeed() + "\nRegular Price : " + getRegularPrice() + "\nPrice After Discount : " + SalePrice();
     }
 }
