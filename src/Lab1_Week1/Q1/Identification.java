@@ -1,6 +1,6 @@
 package Lab1_Week1.Q1;
 public class Identification {
-    String name, email;
+    private String name, email;
     char gender;
 
     public Identification(String name, char gender, String email){
