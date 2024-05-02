@@ -44,12 +44,6 @@ public class Person {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(int phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
-    //public boolean equals(Person person){
-       // if ()
-    //}
     @Override
     public String toString() {
         return "\nName : " + getName() + "\nAddress : " + getAddress() + "\nEmail : " + getEmail() + "\nPhone Number : " + getPhoneNumber();
