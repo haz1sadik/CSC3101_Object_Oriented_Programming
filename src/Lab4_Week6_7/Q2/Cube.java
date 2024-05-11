@@ -1,12 +1,14 @@
 package Lab4_Week6_7.Q2;
-
+//Cube is a child class from superclass ThreeDimensional
 public class Cube extends ThreeDimensional{
+    //attributes declarations
     private double length;
     public Cube(double length, int numOfSurface, String color){
         super(numOfSurface, color);
         setLength(length);
     }
 
+    //Getters and Setters
     public double getLength() {
         return length;
     }

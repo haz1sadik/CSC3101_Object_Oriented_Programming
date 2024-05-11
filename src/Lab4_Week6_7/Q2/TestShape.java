@@ -4,7 +4,9 @@ import java.util.ArrayList;
 
 public class TestShape {
     public static void main(String[] args) {
+        //ArrayList creation and declaration
         ArrayList<Shape> shapes= new ArrayList<>();
+        //object creation
         Circle circle = new Circle(2, 1, "Blue");
         Triangle triangle = new Triangle(2,2, 3, "Red");
         Square square = new Square(3,4, "Green");
@@ -15,6 +17,7 @@ public class TestShape {
         shapes.add(square);
         shapes.add(cube);
         shapes.add(sphere);
+        //Loop to print all the info
         for (Shape shape : shapes) {
             System.out.println(shape);
         }

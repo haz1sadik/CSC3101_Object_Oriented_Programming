@@ -1,12 +1,14 @@
 package Lab4_Week6_7.Q2;
-
+//ThreeDimensional is a child class from superclass Shape
 public class ThreeDimensional extends Shape{
+    //attributes declarations
     private int numOfSurface;
     public ThreeDimensional(int numOfSurface, String color){
         super(color);
         setNumOfSurface(numOfSurface);
     }
 
+    //Getters and Setters
     public int getNumOfSurface() {
         return numOfSurface;
     }

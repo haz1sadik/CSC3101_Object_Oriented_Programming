@@ -2,6 +2,7 @@ package Afiah;
 
 public class TestProgram {
     public static void main(String[] args) {
+        //Objects creation
         Person person = new Person("Afiah", "Sekinchan", "kene2tehlu@gmail.com", 999);
         Person student = new Student("Freshman", "Suha", "Meru", "anakencikirwan@icloud.com", 911);
         MyDate hired = new MyDate(29,4, 2019);
@@ -11,6 +12,7 @@ public class TestProgram {
         DisplayDetailsInformation(student);
 
     }
+    //Display Methods
     public static void DisplayDetailsInformation(Person person){
         if (person instanceof Employee) {
             Employee employee = (Employee) person;
