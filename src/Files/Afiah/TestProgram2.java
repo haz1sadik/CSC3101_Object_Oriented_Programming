@@ -1,4 +1,4 @@
-package Afiah;
+package Files.Afiah;
 
 import java.util.ArrayList;
 import java.util.Scanner;

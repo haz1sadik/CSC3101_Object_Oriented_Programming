@@ -1,4 +1,4 @@
-package Amir;
+package Files.Amir;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -9,7 +9,7 @@ public class Example {
         try
 
         {
-            File file = new File("C:\\Users\\HazuanTech\\IdeaProjects\\CSC3101_Object_Oriented_Programming\\src\\Amir\\file.dat");
+            File file = new File("C:\\Users\\HazuanTech\\IdeaProjects\\CSC3101_Object_Oriented_Programming\\src\\Files.Amir\\file.dat");
             Scanner print = new Scanner(file);
             int counter = 1;
             while (print.hasNext()) {

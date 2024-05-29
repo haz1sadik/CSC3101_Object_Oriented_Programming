@@ -1,4 +1,4 @@
-package Suha;
+package Files.Suha;
 
 public class TestStudent {
 

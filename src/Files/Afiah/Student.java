@@ -1,4 +1,4 @@
-package Afiah;
+package Files.Afiah;
 
 public class Student extends Person{
     private final String status;

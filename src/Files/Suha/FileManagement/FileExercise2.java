@@ -1,4 +1,4 @@
-package Suha.FileManagement;
+package Files.Suha.FileManagement;
 import java.util.Scanner;
 import java.io.File;
 public class FileExercise2 {

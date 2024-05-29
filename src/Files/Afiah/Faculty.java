@@ -1,4 +1,4 @@
-package Afiah;
+package Files.Afiah;
 
 public class Faculty extends Employee{
     private int officeHours;

@@ -1,4 +1,4 @@
-package Afiah;
+package Files.Afiah;
 
 public class TestProgram {
     public static void main(String[] args) {

@@ -1,12 +1,17 @@
-package Suha.FileManagement;
+package Files.Suha.FileManagement;
 
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Scanner;
 
-public class FileManagement {
+public class Test {
     public static void main(String[] args) {
-        File file = new File("C:\\Users\\HazuanTech\\IdeaProjects\\CSC3101_Object_Oriented_Programming\\src\\Suha\\test.txt");
+        Scanner input = new Scanner(System.in);
+        String fileName = "FileManagement.java";
+
+        // Create a File object
+        File file = new File(fileName);
+
         try {
             // Check if the file already exists
             if (file.exists()) {
@@ -19,15 +24,8 @@ public class FileManagement {
                     System.out.println("File creation failed.");
                 }
             }
-
-            // Write some content to the file
-            FileWriter writer = new FileWriter(file);
-            writer.write("This is a test file.");
-            writer.close();
-            System.out.println("Successfully wrote to the file.");
         } catch (IOException e) {
-            System.out.println("An error occurred.");
-            
+            System.out.println("Error");
         }
     }
 }

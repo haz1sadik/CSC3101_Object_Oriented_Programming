@@ -1,5 +1,5 @@
-package Amir;
-/* Name : Amir Syarifuddin
+package Files.Amir;
+/* Name : Files.Amir Syarifuddin
    Course : Computer Network
    Matric Number : 224300*/
 import java.io.*;

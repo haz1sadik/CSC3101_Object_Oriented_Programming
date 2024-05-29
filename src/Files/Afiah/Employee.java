@@ -1,4 +1,4 @@
-package Afiah;
+package Files.Afiah;
 
 public class Employee extends Person{
     private String office;

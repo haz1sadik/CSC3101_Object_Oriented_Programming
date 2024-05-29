@@ -1,4 +1,4 @@
-package Amir;
+package Files.Amir;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class TestProduct {
     public static void main(String[] args) {
-        File file = new File("C:\\Users\\HazuanTech\\IdeaProjects\\CSC3101_Object_Oriented_Programming\\src\\Amir\\productIn.dat");
+        File file = new File("C:\\Users\\HazuanTech\\IdeaProjects\\CSC3101_Object_Oriented_Programming\\src\\Files.Amir\\productIn.dat");
         try {
             Scanner print = new Scanner(file);
             print.useDelimiter(":");

@@ -1,4 +1,4 @@
-package Afiah;
+package Files.Afiah;
 
 public class Person {
     private String name, address, email;
