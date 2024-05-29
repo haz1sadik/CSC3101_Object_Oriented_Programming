@@ -14,7 +14,8 @@ public class Program {
             System.out.print("Enter second number: ");
             num2 = input.nextInt();
         } catch (InputMismatchException ime) {
-            System.out.println("Input is not an integer. Setting default values to 0.");
+            System.out.println("Input is not an integer.");
+            System.exit(0);
         }
 
         if (num1 == 0 && num2 == 0) {
