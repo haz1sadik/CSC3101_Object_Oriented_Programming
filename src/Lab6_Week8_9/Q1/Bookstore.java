@@ -15,19 +15,8 @@ public class Bookstore {
         try {
             FileWriter write = new FileWriter(books);
 
-            System.out.print("Enter Book Name : ");
-            String bookName = inputLine.nextLine();
-            write.write( bookName + ": ");
-            System.out.print("Enter Book Price : ");
-            double price = inputToken.nextDouble();
-            if (price == 0) {
-                throw new InputMismatchException();
-            }else {
-                write.write(price + ": \n");
-            }
-
-            System.out.println("Continue? [Y/N]");
-            char repeat = inputToken.next().charAt(0);
+            String bookName; double price;
+            char repeat = 'Y';
             while (repeat == 'Y' || repeat == 'y'){
                 System.out.print("Enter Book Name : ");
                 bookName = inputLine.nextLine();
