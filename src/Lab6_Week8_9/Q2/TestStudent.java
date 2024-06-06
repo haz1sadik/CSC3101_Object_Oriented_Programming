@@ -28,7 +28,7 @@ public class TestStudent {
             }else {
                 //try-catch block
                 try {
-                    Scanner read = new Scanner(input);
+                    Scanner read  = new Scanner(input);
                     FileWriter writer = new FileWriter(output); //IOException
                     read.useDelimiter(":\\s");
                     while (read.hasNextLine()) {
