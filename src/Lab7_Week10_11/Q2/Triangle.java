@@ -1,9 +1,15 @@
+/*
+ * Name : MUHAMMAD HAZUAN BIN SADIK
+ * Matric Number : 223877
+ */
 package Lab7_Week10_11.Q2;
 
 public class Triangle extends Shape implements printObject{
+
+    //Attributions declaration
     private double height;
     private double width;
-    public Triangle(String color, double width, double height){
+    public Triangle(String color, double width, double height){ //Constructor
         super(color);
         this.width = width;
         this.height = height;

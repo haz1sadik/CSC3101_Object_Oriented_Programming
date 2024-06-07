@@ -1,8 +1,14 @@
+/*
+ * Name : MUHAMMAD HAZUAN BIN SADIK
+ * Matric Number : 223877
+ */
 package Lab7_Week10_11.Q2;
 
 public class Circle extends Shape implements printObject{
+
+    //Attributions declaration
     private double radius;
-    public Circle(String color, double radius){
+    public Circle(String color, double radius){ //Constructor
         super(color);
         this.radius = radius;
     }
