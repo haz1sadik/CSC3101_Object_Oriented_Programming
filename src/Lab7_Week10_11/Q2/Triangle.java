@@ -5,6 +5,8 @@ public class Triangle extends Shape implements printObject{
     private double width;
     public Triangle(String color, double width, double height){
         super(color);
+        this.width = width;
+        this.height = height;
     }
 
     public double getHeight() {
