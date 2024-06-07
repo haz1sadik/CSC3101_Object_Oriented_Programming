@@ -1,8 +1,14 @@
+/*
+ * Name : MUHAMMAD HAZUAN BIN SADIK
+ * Matric Number : 223877
+ */
 package Lab7_Week10_11.Q1;
 
 public class Lorry extends Transport implements RoadTax{
+
+    //Attributions declaration
     private double weightOfGoods;
-    public Lorry(String regNo, double value, double weightOfGoods){
+    public Lorry(String regNo, double value, double weightOfGoods){ //Constructor
         super(regNo, value);
         this.weightOfGoods = weightOfGoods;
     }

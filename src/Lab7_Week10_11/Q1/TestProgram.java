@@ -1,11 +1,16 @@
+/*
+ * Name : MUHAMMAD HAZUAN BIN SADIK
+ * Matric Number : 223877
+ */
 package Lab7_Week10_11.Q1;
 
 import java.util.Scanner;
 
-public class TestProgram {
-    public static void main(String[] args) {
+public class TestProgram { //Main Class
+    public static void main(String[] args) { // Main Method
         Scanner input = new Scanner(System.in);
 
+        //input van
         System.out.println("====== Van ======");
         System.out.print("Enter Registration Number : ");
         String regNoVan = input.next();
@@ -15,6 +20,7 @@ public class TestProgram {
         int numOfSeatVan = input.nextInt();
         Van van = new Van(regNoVan, valueVan, numOfSeatVan);
 
+        //input lorry
         System.out.println("====== Lorry ======");
         System.out.print("Enter Registration Number : ");
         String regNoLorry = input.next();
@@ -24,6 +30,8 @@ public class TestProgram {
         double weightOfGoodsLorry = input.nextDouble();
         Lorry lorry = new Lorry(regNoLorry, valueLorry, weightOfGoodsLorry);
 
+
+        //Printing all information
         System.out.println("\n------- Van -------");
         System.out.println(van);
         System.out.println("Road Tax Amount Van : RM" + van.getRoadTaxAmount());

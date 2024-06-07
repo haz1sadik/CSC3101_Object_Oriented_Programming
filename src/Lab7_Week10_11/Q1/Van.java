@@ -1,8 +1,14 @@
+/*
+ * Name : MUHAMMAD HAZUAN BIN SADIK
+ * Matric Number : 223877
+ */
 package Lab7_Week10_11.Q1;
 
 public class Van extends Transport implements RoadTax{
+
+    //Attributions declaration
     private int noOfSeat;
-    public Van(String regNo, double value, int noOfSeat){
+    public Van(String regNo, double value, int noOfSeat){ //Constructor
         super(regNo, value);
         this.noOfSeat = noOfSeat;
     }
