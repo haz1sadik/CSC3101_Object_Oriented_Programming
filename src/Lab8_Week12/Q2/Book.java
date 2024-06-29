@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class Book implements Serializable{
     private String title;
     private double price;
-    private static double total;
+    private static double total = 0;
 
     public Book(){
         addTotalPriceOfBooks(price);

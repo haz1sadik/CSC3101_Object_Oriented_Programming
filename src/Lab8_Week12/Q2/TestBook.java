@@ -5,8 +5,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class TestBook {
-    public static void main(String[] args) throws ClassNotFoundException, IOException{
-        String fileName = "C:\\Users\\HazuanTech\\IdeaProjects\\CSC3101_Object_Oriented_Programming\\src\\Lab8_Week12\\Q2\\inputObject.dat";
+    public static void main(String[] args) throws ClassNotFoundException, IOException {
+        String fileName = "C:\\Users\\User\\IdeaProjects\\CSC3101_Object_Oriented_Programming\\src\\Lab8_Week12\\Q2\\inputObject.dat";
         Scanner input = new Scanner(System.in);
         ArrayList<Book> books = new ArrayList<>();
         int counterBook = 0;
@@ -33,6 +33,7 @@ public class TestBook {
                 Book temp = (Book) inputObject.readObject();
                 System.out.println(temp.getTitle());
                 books.add(temp);
+                Book.addTotalPriceOfBooks(temp.getPrice());
                 counterBook++;
             }catch (EOFException eofe){
                 System.out.println("End Of File Reached");
@@ -40,6 +41,8 @@ public class TestBook {
             }catch (FileNotFoundException fnfe){
                 System.out.println("File not found");
             }
+            System.out.println("Number of Books : " + counterBook);
+            System.out.println(Book.getTotal());
         }
         int count = 1;
         for (Book book : books){
@@ -48,8 +51,5 @@ public class TestBook {
             System.out.println("Price : RM" + book.getPrice());
             count++;
         }
-        System.out.println("Number of Books : " + counterBook);
-        System.out.println(Book.getTotal());
-
     }
 }
