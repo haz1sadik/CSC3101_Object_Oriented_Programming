@@ -1,3 +1,7 @@
+/*
+Name : MUHAMMAD HAZUAN BIN SADIK
+Matric No : 223877
+*/
 package Lab8_Week12.Q2;
 
 import java.io.Serializable;
